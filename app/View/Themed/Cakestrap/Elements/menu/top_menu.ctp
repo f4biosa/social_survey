@@ -11,7 +11,7 @@
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="Students"><?php echo __('Students');?></a></li>
-			<li><a href="#">Link</a></li>
+			<li><a href="Households"><?php echo __('Households') ?></a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 				<ul class="dropdown-menu">

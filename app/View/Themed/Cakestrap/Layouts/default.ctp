@@ -43,32 +43,32 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		?>
 	</head>
 
-	<body>
+	<body style="padding: 0 20px;">
 
-		<div id="main-container">
+		<!--<div id="main-container">-->
 		
-			<div id="header" class="container">
+			<div id="header" >
 				<?php echo $this->element('menu/top_menu'); ?>
 			</div><!-- /#header .container -->
 			
-			<div id="content" class="container">
+			<div id="content" >
 				<?php echo $this->Session->flash(); ?>
 				<?php echo $this->fetch('content'); ?>
 			</div><!-- /#content .container -->
 			
-			<div id="footer" class="container">
+			<div id="footer" >
 				<?php //Silence is golden ?>
 			</div><!-- /#footer .container -->
 			
-		</div><!-- /#main-container -->
+		<!--</div>--> <!-- /#main-container -->
 		
-		<div class="container">
+		<!--<div class="container">-->
 			<div class="well well-sm">
 				<small>
 					<?php echo $this->element('sql_dump'); ?>
 				</small>
 			</div><!-- /.well well-sm -->
-		</div><!-- /.container -->
+		<!--</div>--><!-- /.container -->
 		
 	</body>
 
